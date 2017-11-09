@@ -4,7 +4,6 @@ import com.example.demo.service.BlogProperties;
 import org.junit.Assert;
 import org.junit.Test;
 import org.junit.runner.RunWith;
-
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.junit4.SpringRunner;
@@ -16,6 +15,7 @@ public class BlogPropertiesTests {
     @Autowired
     private BlogProperties blogProperties;
 
+    // Create test for blog
     @Test
     public void test1() {
         Assert.assertEquals(blogProperties.getName(), "Sheng");

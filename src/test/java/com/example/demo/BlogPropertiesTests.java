@@ -15,7 +15,7 @@ public class BlogPropertiesTests {
     @Autowired
     private BlogProperties blogProperties;
 
-    // Create test for blog
+    // Create test for Sheng blog
     @Test
     public void test1() {
         Assert.assertEquals(blogProperties.getName(), "Sheng");
